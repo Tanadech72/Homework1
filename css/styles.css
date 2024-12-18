@@ -15,3 +15,14 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+.main-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.main-header .nav-list {
+    list-style: none;
+}
+.main-header .nav-list li {
+    display: inline;
+    margin-right: 15px;
+}
