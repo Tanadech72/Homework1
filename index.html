@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำที่น่าเที่ยวจังหวัดสมุทรปราการ</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>WELCOME</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="overview">
+        <div class="container">
+            <h2>ภาพรวมจังหวัดสมุทรปราการ</2>
+            <p>จังหวัดสมุทรปราการ เป็นจังหวัดที่มีการทำนา, ประมง และอุตสาหกรรม แหล่งท่องเที่ยวและสถานที่สำคัญต่างๆมากมาย</p>
+            <img src="images/Samut_Prakarn.jpg" alt="ภาพไฮไลท์ของจังหวัด">
+        </div>
+    </section>
+
+    <section class="attractions">
+        <div class="container">
+            <h2>สถานที่ท่องเที่ยวที่สำคัญ</h2>
+            <div class="card-container">
+                <div class="card" onclick="openModal('หอชมเมือง สมุทรปราการ', 'พิพิธภัณฑ์ช้างเอราวัณ  ได้รับการยกย่องว่าเป็นหนึ่งในสถานที่ท่องเที่ยวที่สำคัญและโดดเด่นที่สุดแห่งหนึ่งของจังหวัดสมุทรปราการ นอกจากประติมากรรมช้างเอราวัณแล้ว ภายในพิพิธภัณฑ์ยังมีศิลปวัตถุทางวัฒนธรรมและศาสนา งานประติมากรรม และงานศิลปะร่วมสมัยอีกมากมายให้ชม', 'images/Tower.jpg')">
+                    <img src="images/Tower.jpg" alt="หอชมเมือง สมุทรปราการ">
+                    <div class="card-content">
+                        <h3>หอชมเมือง สมุทรปราการ</h3>
+                    </div>
+                </div>
+                <div class="card" onclick="openModal('เมกา บางนา', 'เมกา บางนา ห้างสรรพสินค้าและศูนย์การค้าครบครัน สุดคึกคัก ใจกลางย่านบางนา เป็นศูนย์การค้าขนาดใหญ่ครบวงจร รองรับผู้มาใช้บริการมากกว่า 300,000 คนต่อวัน ภายในศูนย์การค้ามีร้านค้ากว่า 1,000 ร้าน ทั้งร้านอาหาร โรงภาพยนตร์ สวนสนุก และสถาบันชั้นนำอีกมากมาย', 'images/Mega.jpg')">
+                    <img src="images/Mega.jpg" alt="เมกา บางนา">
+                    <div class="card-content">
+                        <h3>เมกา บางนา</h3>
+                    </div>
+                </div>    
+                <div class="card" onclick="openModal('พิพิธภัณฑ์ช้างเอราวัณ', 'ท้องทะเลสวยงาม พร้อมกิจกรรมดำน้ำชมปะการัง ถ่ายรูปกับน้องปลา สถานที่นี้เหมาะสำหรับการพักผ่อนเป็นอย่างมาก', 'images/Chang.jpg')">
+                    <img src="images/Chang.jpg" alt="พิพิธภัณฑ์ช้างเอราวัณ">
+                    <div class="card-content">
+                        <h3>พิพิธภัณฑ์ช้างเอราวัณ</h3>
+                    </div>
+                </div>
+                <div class="card" onclick="openModal('เมืองโบราณ', 'เมืองโบราณ เป็นพิพิธภัณฑ์กลางแจ้งที่ใหญ่ที่สุดในโลก ตั้งอยู่บนพื้นที่กว่า 800 ไร่ เป็นแหล่งรวบรวมโบราณวัตถุ สถาปัตยกรรม และประติมากรรมไทยจากทั่วประเทศ ภายในเมืองโบราณ   แบ่งออกเป็นโซนต่างๆตามภูมิภาคของไทย เช่น ภาคเหนือ ภาคอีสาน ภาคกลาง ภาคใต้ และภาคตะวันออก', 'images/City.jpg')">
+                    <img src="images/City.jpg" alt="เมืองโบราณ">
+                    <div class="card-content">
+                        <h3>เมืองโบราณ</h3>
+                    </div>
+                </div>
+                <div class="card" onclick="openModal('สวนหลวง ร.9', 'สวนหลวง ร.9 เป็นสวนสาธารณะและสวนพฤกษศาสตร์ที่ใหญ่ที่สุดในกรุงเทพมหานคร มีพื้นที่ประมาณ 500 ไร่ เหมาะกับการพักผ่อนและคลายเครียดที่เหมาะกับการออกกำลังกายหรือแม้แต่การมาปั่นเป็ดสุดโรแมนติก เป็นหนึ่งในที่เที่ยวใกล้บางนาที่น่าพาแฟนมาเดทสุดๆ', 'images/Park1.jpg')">
+                    <img src="images/Park1.jpg" alt="สวนหลวง ร.9">
+                    <div class="card-content">
+                        <h3>สวนหลวง ร.9</h3>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="สถานที่">
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>แนะนำที่น่าเที่ยวจังหวัดสมุทรปราการ. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function openModal(title, description, imageUrl) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-description').innerText = description;
+            document.getElementById('modal-image').src = imageUrl;
+            document.getElementById('modal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
+ 
