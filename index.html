@@ -214,3 +214,33 @@
             </div>
         </div>
     </section>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="สถานที่">
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>แนะนำที่น่าเที่ยวจังหวัดสมุทรปราการ. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function openModal(title, description, imageUrl) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-description').innerText = description;
+            document.getElementById('modal-image').src = imageUrl;
+            document.getElementById('modal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
+ 
