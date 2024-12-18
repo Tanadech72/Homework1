@@ -121,3 +121,7 @@ h2{
     font-size: 1.5rem;
     color: #1f1e1e;
 }
+.modal p {
+    margin-top: 10px;
+    color: #555;
+}
