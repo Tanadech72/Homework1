@@ -127,8 +127,8 @@ h2{
 }
 .close {
     position: absolute;
-    top: 15x;
-    right: 20x;
+    top: 5px;
+    right: 10px;
     font-size: 2rem;
     color: #ff0000;
     cursor: pointer;
