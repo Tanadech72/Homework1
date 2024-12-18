@@ -127,7 +127,7 @@ h2{
 }
 .close {
     position: absolute;
-    top: 100x;
+    top: 0.00001cm;
     right: 1px;
     font-size: 2rem;
     color: #ff0000;
