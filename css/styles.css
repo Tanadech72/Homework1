@@ -26,3 +26,16 @@ body {
     display: inline;
     margin-right: 15px;
 }
+.main-header .nav-list a {
+    color: #1f1e1e;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.main-header .nav-list a:hover {
+    color: #ffd700;
+}
+h2{
+    text-align: center;
+}
