@@ -125,3 +125,15 @@ h2{
     margin-top: 10px;
     color: #555;
 }
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 2rem;
+    color: #ca2e2e;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.close:hover {
+    color: #ffd700;
+}
