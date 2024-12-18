@@ -111,3 +111,9 @@ h2{
     position: relative;
     animation: fadeIn 0.5s ease;
 }
+.modal img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
